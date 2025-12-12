@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.header{
+    background: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.products{
+    padding: 20px;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
