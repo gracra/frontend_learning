@@ -1,0 +1,192 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    line-height: 25px;
+    color: azure;
+}
+
+body {
+    background-color: rgb(6, 29, 48);
+}
+
+.page {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.header {
+    background-image: linear-gradient(rgb(17, 17, 48), rgb(65, 49, 133));
+    padding: 40px;
+}
+
+.site-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.site-subtitle {
+    font-size: 20px;
+    color: rgb(185, 198, 198);
+
+}
+
+.main-menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(36, 28, 74);
+    padding: 10px;
+    box-shadow: 4px 4px 5px rgb(28, 19, 48);
+}
+
+.main-menu li a {
+    text-decoration: none;
+}
+
+.main-menu :hover {
+    background-color: rgb(66, 50, 146);
+}
+
+.main-content {
+    float: left;
+    width: 65%;
+    margin: 10px;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    margin: 10px;
+}
+
+.planet-photo {
+    float: right;
+    width: 350px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(53, 53, 57);
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 4px 4px 5px rgb(28, 19, 48);
+}
+
+.footer {
+    clear: both;
+}
+
+.content {
+    text-align: left;
+}
+
+.section-title2 {
+    clear: both;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fact-card {
+    background-color: rgb(52, 43, 103);
+    border-style: solid;
+    border-color: rgb(38, 87, 126);
+    border-width: 3px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 30px 0px;
+}
+
+.fact-card-title {
+    font-size: 25px;
+    color: rgb(135, 199, 199);
+}
+
+.fact-badge {
+    float: right;
+    position: relative;
+    top: -160px;
+    color: rgb(31, 21, 66);
+    background-color: rgb(205, 180, 84);
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(205, 180, 84);
+    font-size: 20px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(38, 87, 126);
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: rgb(56, 50, 88);
+    padding: 10px;
+    box-shadow: 4px 4px 5px rgb(28, 19, 48);
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: rgb(105, 101, 133);
+}
+
+.sidebar-block {
+    background-color: rgb(52, 43, 103);
+    margin: 30px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(38, 87, 126);
+    border-width: 3px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgb(5, 4, 26);
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fact-label {
+    font-weight: bold;
+    color: rgb(182, 187, 224);
+}
+
+
+.sidebar-links a {
+    text-decoration: none;
+    color: rgb(135, 199, 199);
+}
+
+.footer-text {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(191, 218, 218);
+    border-top: 2px solid rgb(191, 218, 218);
+    width: 100%;
+    background-color: rgb(17, 45, 67);
+    padding: 10px;
+}
+
+
+.facts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.facts-table, th, td {
+    border-style:hidden;
+    border-color: azure;
+}
