@@ -177,16 +177,11 @@ strong {
 
 
 .facts-table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
 }
 
 th, td {
-  padding: 10px;
-  text-align: left;
-}
-
-.facts-table, th, td {
-    border-style:hidden;
-    border-color: azure;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid gainsboro;
 }
